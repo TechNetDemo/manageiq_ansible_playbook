@@ -3,5 +3,5 @@
     - name: Copy Terraform template
       copy:
         src: /terraform/templates/prod-2vm-stack.tf
-        dest: /terraform/stacks/{{project}}/prod-vm-stack.tf
+        dest: /terraform/stacks/test/prod-vm-stack.tf
         remote_src: true
