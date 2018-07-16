@@ -1,7 +1,4 @@
 - hosts: all
   tasks:
-    - name: Copy Terraform template
-      copy:
-        src: /terraform/templates/prod-2vm-stack.tf
-        dest: /terraform/stacks/test/prod-vm-stack.tf
-        remote_src: true
+    - name: Hi
+      shell: echo "hi" > /test.txt
