@@ -1,3 +1,5 @@
 - hosts: all
   roles:
    - test
+  vars:
+   projectname: {{project}}
