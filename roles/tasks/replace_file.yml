@@ -1,0 +1,7 @@
+ - name: Remove Old Testing File
+   file: path='/tmp/ansible_template.txt' state=absent
+
+ - name: Create New Testing File
+   template:
+     src: ansible_template.txt
+     dest: /tmp/ansible_template.txt
