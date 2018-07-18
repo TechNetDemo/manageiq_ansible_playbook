@@ -2,4 +2,4 @@
   roles:
    - test
   vars:
-   projectname: "{{project}}"
+   projectname: "{{vm_description}}"
